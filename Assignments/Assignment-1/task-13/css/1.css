@@ -1,0 +1,55 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header styling */
+    header {
+      position: fixed;       /* Keeps header fixed at the top */
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1000;         /* Ensures header stays above other content */
+    }
+
+    /* Logo styling */
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* Navigation styling */
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #FFD700; /* Gold on hover */
+    }
+
+    /* Add spacing so content isn't hidden behind fixed header */
+    .content {
+      margin-top: 80px;
+      padding: 20px;
+    }

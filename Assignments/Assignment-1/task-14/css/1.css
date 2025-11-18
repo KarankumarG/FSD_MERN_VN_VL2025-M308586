@@ -1,0 +1,42 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    /* Sidebar with sticky positioning */
+    .sidebar {
+      width: 200px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      height: 100vh; /* Full viewport height */
+      position: sticky; /* Sticky positioning */
+      top: 0;           /* Sticks when reaching the top */
+      border-right: 2px solid #ccc;
+    }
+
+    /* Alternative: Fixed positioning */
+    .fixed-sidebar {
+      width: 200px;
+      background-color: #e6f0ff;
+      padding: 20px;
+      height: 100vh;
+      position: fixed;  /* Fixed positioning */
+      top: 0;
+      left: 0;
+      border-right: 2px solid #007BFF;
+    }
+
+    /* Main content */
+    .content {
+      flex: 1;
+      padding: 20px;
+      margin-left: 200px; /* Space for fixed sidebar */
+    }
+
+    .content p {
+      margin-bottom: 20px;
+    }

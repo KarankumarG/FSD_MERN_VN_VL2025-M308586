@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Styling Methods Demo</title>
+
+  <!-- Linking External CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Internal CSS -->
+  <style>
+    /* Internal CSS - applied to the main content section */
+    section {
+      background-color: #e6f0ff;
+      padding: 20px;
+      margin: 20px;
+      border: 2px solid #007BFF;
+      border-radius: 8px;
+    }
+    section h2 {
+      color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- External CSS applied here -->
+  <header>
+    <h1>CSS Styling Methods Demonstration</h1>
+  </header>
+
+  <!-- Internal CSS applied here -->
+  <section>
+    <h2>Internal CSS Example</h2>
+    <p>This section is styled using <strong>internal CSS</strong> defined inside the &lt;style&gt; tag in the head.</p>
+  </section>
+
+  <!-- Inline CSS applied here -->
+  <p style="color: red; font-weight: bold; text-align: center;">
+    This paragraph is styled using <strong>inline CSS</strong> directly inside the HTML element.
+  </p>
+
+  <!-- External CSS applied here -->
+  <footer>
+    <p>Footer styled with <strong>external CSS</strong> from styles.css</p>
+  </footer>
+
+</body>
+</html>
